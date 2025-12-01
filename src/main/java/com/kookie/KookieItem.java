@@ -35,7 +35,7 @@ public class KookieItem extends Item {
             .build();
 
     public KookieItem(Settings settings) {
-        super(settings.consumable(KOOKIE_CONSUMABLE));
+        super(settings);
     }
 
     @Override

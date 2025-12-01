@@ -28,7 +28,7 @@ public class KookieMod implements ModInitializer {
             new KookieItem(new Item.Settings()
                     .registryKey(KOOKIE_KEY)
                     .maxCount(64)
-                    .food(KookieItem.KOOKIE_FOOD))
+                    .food(KookieItem.KOOKIE_FOOD, KookieItem.KOOKIE_CONSUMABLE))
     );
 
     private static Item register(RegistryKey<Item> key, Item item) {
