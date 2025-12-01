@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "kookie",
+  "version": "${version}",
+  "name": "Kookie Mod",
+  "description": "Adds the Kookie item - a smelted cookie with special powers! Gives Speed II for 3 minutes and Regeneration II for 3 minutes.",
+  "authors": [
+    "James"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/kookie/textures/item/kookie.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.kookie.KookieMod"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
