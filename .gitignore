@@ -1,0 +1,35 @@
+# Build outputs
+build/
+
+# Gradle
+.gradle/
+gradle/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.project
+.classpath
+*.launch
+
+# Runtime
+run/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Batch scripts (local dev only)
+*.bat
+!gradlew.bat
+
+# Logs
+*.log
+logs/
+
+# Local config
+local.properties
